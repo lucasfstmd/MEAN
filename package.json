@@ -4,6 +4,7 @@
   "description": "Teste do MERN Stack com Angukar (MEAN Stack)",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@lucas.fstmd",
