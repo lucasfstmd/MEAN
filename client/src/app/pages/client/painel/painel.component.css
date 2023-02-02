@@ -1,0 +1,69 @@
+.tollbar-inicial mat-icon {
+  padding: 10px;
+}
+
+.card-inicial.titulo{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-inicial h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  font-letiant: N/A;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-indent: 0px;
+  line-height: 72px;
+  text-transform: none;
+  text-decoration: none solid rgba(0, 0, 0, 0.87);
+}
+
+.subtitulo {
+  width: 522px;
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.card-inicial p {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-butoes: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.butoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px;
+}
+
+.primeiro {
+  margin-right: 15px;
+}
+
+.containers-card {
+  width: 1200px;
+  height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
