@@ -23,7 +23,7 @@
       <button class="segundo" mat-raised-button>SECUNDARY ACTION</button>
     </div>
     <div class="containers-card">
-      <card-component></card-component>
+      <card-component *ngFor="let card of cards"></card-component>
     </div>
     <footer-component></footer-component>
   </mat-card>

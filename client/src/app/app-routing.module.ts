@@ -7,11 +7,12 @@ import { MatCardModule } from "@angular/material/card";
 import { MatButtonModule } from "@angular/material/button";
 import { CardComponent } from "./pages/client/painel/card/card.component";
 import { FooterComponent } from "./pages/client/painel/footer/footer.component";
+import {NgForOf} from "@angular/common";
 
 const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), MatToolbarModule, MatIconModule, MatCardModule, MatButtonModule],
+  imports: [RouterModule.forRoot(routes), MatToolbarModule, MatIconModule, MatCardModule, MatButtonModule, NgForOf],
   declarations: [
     PainelComponent,
     CardComponent,

@@ -65,5 +65,11 @@ p {
   height: 2000px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+card-component{
+  width: 25%;
 }
 
