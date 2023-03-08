@@ -1,0 +1,18 @@
+<mat-drawer-container class="container">
+  <mat-drawer mode="side" opened>
+    <button-custom (click)="setDashboard()" [buttonTxt]="'Dashboard'" [buttonIcon]="'dashboard'"></button-custom>
+    <button-custom (click)="setOrder()" [buttonTxt]="'Order'" [buttonIcon]="'shopping_cart'"></button-custom>
+    <button-custom (click)="setCustomers()" [buttonTxt]="'Customers'" [buttonIcon]="'group'"></button-custom>
+    <button-custom (click)="setReports()" [buttonTxt]="'Reports'" [buttonIcon]="'leaderboard'"></button-custom>
+    <button-custom (click)="setIntegrations()" [buttonTxt]="'Integrations'" [buttonIcon]="'filter_none'"></button-custom>
+    <hr>
+    <p>Save Reports</p>
+  </mat-drawer>
+  <mat-drawer-content>
+    <dashboard *ngIf="dashboardAlive"></dashboard>
+    <order *ngIf="orderAlive"></order>
+    <customers *ngIf="customersAlive"></customers>
+    <reports *ngIf="reportsAlive"></reports>
+    <integrations *ngIf="integrationsAlive"></integrations>
+  </mat-drawer-content>
+</mat-drawer-container>

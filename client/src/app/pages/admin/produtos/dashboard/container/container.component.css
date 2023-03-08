@@ -1,0 +1,23 @@
+mat-drawer {
+  width: 15%;
+}
+
+mat-drawer-container {
+  width: 98.8%;
+}
+
+.container {
+  width: 98.8%;
+  height: 98.8%;
+  margin: 10px;
+}
+
+p {
+  margin-left: 20%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+}
+
+
+
+

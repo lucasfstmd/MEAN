@@ -1,0 +1,29 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <!-- Date Column -->
+  <ng-container matColumnDef="date">
+    <th mat-header-cell *matHeaderCellDef> Date. </th>
+    <td mat-cell *matCellDef="let element"> {{element.date}} </td>
+  </ng-container>
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+  </ng-container>
+  <!-- Ship To Column -->
+  <ng-container matColumnDef="shipTo">
+    <th mat-header-cell *matHeaderCellDef> Ship To </th>
+    <td mat-cell *matCellDef="let element"> {{element.shipTo}} </td>
+  </ng-container>
+  <!-- Payment Method Column -->
+  <ng-container matColumnDef="paymentMethod">
+    <th mat-header-cell *matHeaderCellDef> Payment Method </th>
+    <td mat-cell *matCellDef="let element"> {{element.paymentMethod}} </td>
+  </ng-container>
+  <!-- Sales Amount Column -->
+  <ng-container matColumnDef="salesAmount">
+    <th mat-header-cell *matHeaderCellDef> Sales Amount </th>
+    <td mat-cell *matCellDef="let element"> {{element.salesAmount}} </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
