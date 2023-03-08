@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb+srv://lucasFausto:lucasmede123@cluster01.5i0jdcc.mongodb.net/test', {
+mongoose.connect('mongodb://localhost:27017', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 }, function (err) {
